@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Reduce editor height */
+.EasyMDEContainer .CodeMirror {
+  min-height: 150px; /* default ~300px */
+  max-height: 250px; /* optional */
+}
